@@ -19,9 +19,9 @@ data = urllib.urlopen(url).read()
 soup = BeautifulSoup(data)
 
 ### make a new folder for each user
-# os.getcwd()
-# os.mkdir(gitUser)
-# os.chdir(gitUser)
+os.getcwd()
+os.mkdir(gitUser)
+os.chdir(gitUser)
 
 
 
